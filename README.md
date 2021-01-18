@@ -31,4 +31,5 @@ for face in faces:
 ### Image Face-Detection.
 
 ![Before][before]
+
 [before]: thor.jpg "Image of a Super Hero"
