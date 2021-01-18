@@ -12,7 +12,7 @@ This is a Face-Detection python script working with the use of OpenCV
 classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 ```
 
-This app uses our web-cam and helps us detect the faces within the frame. It captures the video in a run-time environment and displays a rectangle marking the face in the frame. 
+[This](face-detect-WebCam.py) app uses our web-cam and helps us detect the faces within the frame. It captures the video in a run-time environment and displays a rectangle marking the face in the frame. 
 
 ```python
 for face in faces:
