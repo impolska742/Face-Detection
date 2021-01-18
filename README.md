@@ -4,7 +4,7 @@ This is a Face-Detection python script working with the use of OpenCV
 
 ### OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez. The library is cross-platform and free for use under the open-source Apache 2 License.
 
-####In this python project, I've used Haar-Cascade-Frontal-Detection Algorithm.
+#### In this python project, I've used Haar-Cascade-Frontal-Detection Algorithm.
 
 [Haar Cascade Frontal Face XML](https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml "Haar Cascade XML")
 
@@ -21,6 +21,7 @@ for face in faces:
 	cv2.imshow("My Window", frame)
 ```
 
+### WebCam Face-Detection.
 ![Working GIF of Face-Detection using WebCam][web-cam]
 
 [web-cam]: face-detection-webCam.gif "Face-Detection-WebCam"
