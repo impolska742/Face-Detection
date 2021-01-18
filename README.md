@@ -28,8 +28,15 @@ for face in faces:
 
 [This](face-detect-image.py) app reads an image from our computer and helps us detect the faces within that image. Here is an example of such :-
 
-### Image Face-Detection.
+### Image Face-Detection
 
+#### Before
 ![Before][before]
 
 [before]: thor.jpg "Image of a Super Hero"
+
+
+#### After
+![After][after]
+
+[after]: after.jpg "Image of Face Detected Super Hero"
