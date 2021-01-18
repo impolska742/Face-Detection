@@ -15,10 +15,10 @@ classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 This app uses our web-cam and helps us detect the faces within the frame. It captures the video in a run-time environment and displays a rectangle marking the face in the frame. 
 
 ```python
-		for face in faces:
-            x, y, w, h = face
-            frame = cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 10)
-            cv2.imshow("My Window", frame)
+for face in faces:
+	x, y, w, h = face
+	frame = cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 10)
+	cv2.imshow("My Window", frame)
 ```
 
 ![Working GIF of Face-Detection using WebCam][web-cam]
